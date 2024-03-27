@@ -1,7 +1,8 @@
 import Navbar from "./navbar/navbar";
+import Hero from "./hero/hero";
 
 function Main() {
-    return ( <div><Navbar/><h2>Hello</h2></div> );
+    return ( <div><Navbar/><Hero/></div> );
 }
 
 export default Main;

@@ -23,7 +23,7 @@ function Navbar() {
 
   return (
     <div className=" bg-white ">
-      <div className="flex items-center font-semibold justify-between p-5 lg:ml-20 lg:mr-20 lg:flex-row">
+      <div className="flex items-center font-semibold justify-between p-5 lg:mx-20 lg:flex-row">
         <div>
           <a
             href="#home"
