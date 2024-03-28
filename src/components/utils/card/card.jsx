@@ -1,23 +1,22 @@
 function Card({ imgPath, title, subtitle, body, link }) {
   return (
     <div className="flex items-center justify-center">
-      <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-        <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 lg:block ssm:hidden">
+      <div className="relative flex w-full h-[20rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-l-none rounded-full bg-white bg-clip-border lg:block ssm:hidden">
           <img
             src={imgPath}
             alt="image"
             className="h-full w-full object-contain"
-            width={30}
           />
         </div>
-        <div className="p-6">
+        <div className="p-6 hover:animate-pulse">
           <h6 className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-blue-500 antialiased">
             {title}
           </h6>
           <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
             {subtitle}
           </h4>
-          <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+          <p className="mb-8 block font-sans text-ellipsis overflow-hidden text-base font-normal leading-relaxed text-gray-700 antialiased">
             {body}
           </p>
           <a className="inline-block" href={link} target="_blank">

@@ -38,7 +38,7 @@ function Navbar() {
                 key={item.link}
                 ItemContainer="a"
                 link={item.link}
-                styles="text-black hover:bg-slate-300 rounded-full px-5 py-2 text-l"
+                styles="text-black hover:bg-blue-300 rounded-full px-5 py-2 text-l"
               >
                 {item.label}
               </NavItem>

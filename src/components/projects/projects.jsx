@@ -1,3 +1,5 @@
+import constructionImg from "../../assets/construction.svg";
+
 import Card from "../utils/card/card";
 import { PROJECT_LIST } from "./project_list";
 
@@ -18,6 +20,10 @@ function Projects() {
         {PROJECT_LIST.map((item) => (
           <Card key={item.title} {...item} />
         ))}
+      </div>
+      <div className="flex flex-row justify-center py-20">
+        <img src={constructionImg} alt=" " width={100} />
+        <p className="text-xl text-gray-500 px-4 py-7"> Projects are underconstructions... Will be available soon!</p>
       </div>
     </section>
   );

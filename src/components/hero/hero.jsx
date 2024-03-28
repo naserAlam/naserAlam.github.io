@@ -35,8 +35,8 @@ function Hero() {
         <div className="flex justify-evenly align-middle items-center mt-20 mx-20 ssm:flex-col lg:flex-row ssm:space-y-3">
           <h3 className="text-xl text-gray-500">Tech Stack</h3>
           <hr className="lg:hidden ssm:block bg-gray-500 w-full h-0.5"/>
-          <div className="flex flex-row space-x-3 ssm:justify-evenly">{SKILLS['webdevelopment'].map((item) => (<img className="hover:animate-bounce focus:animate-bounce" key={item} src={item} width={45}/>))}</div>
-          <div className="flex flex-row space-x-3 ssm:justify-evenly">{SKILLS['machinelearning'].map((item) => (<img className="hover:animate-bounce focus:animate-bounce" key={item} src={item} width={45}/>))}</div>
+          <div className="flex flex-row space-x-3 ssm:justify-center">{SKILLS['webdevelopment'].map((item) => (<img className="hover:animate-bounce focus:animate-bounce" key={item} src={item} width={45}/>))}</div>
+          <div className="flex flex-row space-x-3 ssm:justify-center">{SKILLS['machinelearning'].map((item) => (<img className="hover:animate-bounce focus:animate-bounce" key={item} src={item} width={45}/>))}</div>
         </div>
       </div>
     </section>
