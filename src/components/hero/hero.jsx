@@ -1,4 +1,3 @@
-
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 import { SKILLS } from "./skills_list";
