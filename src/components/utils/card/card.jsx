@@ -20,7 +20,7 @@ function Card({ imgPath, title, subtitle, body, link }) {
           <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
             {body}
           </p>
-          <a className="inline-block" href={link}>
+          <a className="inline-block" href={link} target="_blank">
             <button
               className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-500 transition-all hover:bg-blue-500/10 active:bg-blue-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="button"
