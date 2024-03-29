@@ -16,14 +16,13 @@ function Navbar() {
 
   const navigation = [
     { link: "#home", label: "Home" },
-    { link: "#about", label: "About" },
     { link: "#projects", label: "Projects" },
     { link: "#contact", label: "Contact" },
   ];
 
   return (
     <div className=" bg-white ">
-      <div className="flex items-center font-semibold justify-between p-5 lg:ml-20 lg:mr-20 lg:flex-row">
+      <div className="flex items-center font-semibold justify-between py-5 px-20 lg:flex-row w-full">
         <div>
           <a
             href="#home"
@@ -39,7 +38,7 @@ function Navbar() {
                 key={item.link}
                 ItemContainer="a"
                 link={item.link}
-                styles="text-black hover:bg-slate-300 rounded-full px-5 py-2 text-l"
+                styles="text-black hover:bg-blue-300 rounded-full px-5 py-2 text-l"
               >
                 {item.label}
               </NavItem>
